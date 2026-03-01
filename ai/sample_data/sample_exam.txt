@@ -1,0 +1,84 @@
+CS 70 — Discrete Mathematics and Probability Theory
+Fall 2024 Midterm Examination
+University of California, Berkeley
+
+Instructions: You have 120 minutes. Show all work. No calculators. Good luck!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 1: Modular Arithmetic (15 points)
+
+(a) Compute 7^{142} mod 11.
+
+(b) Find all x in {0, 1, ..., 12} satisfying 5x ≡ 3 (mod 13).
+
+(c) Prove that for any prime p and any integer a not divisible by p,
+    a^{p-1} ≡ 1 (mod p).
+    You may use any theorem stated in lecture.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 2: Proof by Induction (20 points)
+
+Prove by strong induction that every integer n ≥ 2 can be written as a product of primes.
+
+More precisely, prove the statement P(n): "n can be expressed as p_1 · p_2 · ... · p_k for some primes p_1, ..., p_k (k ≥ 1)."
+
+(a) State and prove the base case.
+
+(b) State the inductive hypothesis clearly.
+
+(c) Complete the inductive step. Be sure to handle the case where n+1 is prime and the case where n+1 is composite separately.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 3: Graphs (20 points)
+
+Consider a connected undirected graph G = (V, E) with |V| = n vertices.
+
+(a) Prove that if G is a tree, then |E| = n - 1.
+
+(b) Suppose G has exactly n edges. Prove that G contains at least one cycle.
+    Hint: What happens if you remove edges one at a time?
+
+(c) An Eulerian path is a path that uses every edge exactly once.
+    Prove that a connected graph has an Eulerian path if and only if
+    it has exactly 0 or 2 vertices of odd degree.
+    You may prove only one direction for full credit.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 4: Discrete Probability (15 points)
+
+A bag contains 5 red balls, 3 blue balls, and 2 green balls. You draw 3 balls without replacement.
+
+(a) What is the probability that all three balls are the same color?
+
+(b) What is the probability that you get exactly one ball of each color?
+
+(c) Let X be the number of red balls drawn. Compute E[X] and Var(X).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 5: RSA Encryption (15 points)
+
+Alice sets up RSA with primes p = 5 and q = 11.
+
+(a) Compute N and φ(N).
+
+(b) Alice chooses encryption exponent e = 3. Verify that gcd(e, φ(N)) = 1 and compute the decryption exponent d.
+
+(c) Bob sends the message m = 9. Compute the ciphertext c = m^e mod N.
+
+(d) Show that Alice can recover m by computing c^d mod N.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 6: Counting and Combinatorics (15 points)
+
+(a) How many ways can you arrange the letters in the word MISSISSIPPI?
+
+(b) A committee of 5 is chosen from 8 men and 6 women. How many committees have at least 2 women?
+
+(c) How many bit strings of length 10 have exactly 4 ones, with no two consecutive ones?
+    Hint: Think about placing ones in gaps.

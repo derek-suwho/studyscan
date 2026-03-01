@@ -1,5 +1,9 @@
-node_modules
-dist
+node_modules/
+dist/
 .DS_Store
 *.local
-temporary screenshots
+__pycache__/
+*.pyc
+.env
+*.log
+temporary screenshots/

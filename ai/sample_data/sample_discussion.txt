@@ -1,0 +1,60 @@
+CS 70 — Discrete Mathematics and Probability Theory
+Discussion 6 Worksheet — Fall 2024
+University of California, Berkeley
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 1: Modular Inverses and CRT
+
+(a) Find the inverse of 7 modulo 15 using the extended Euclidean algorithm.
+    Show each step of the algorithm.
+
+(b) Solve the following system of congruences using the Chinese Remainder Theorem:
+      x ≡ 2 (mod 3)
+      x ≡ 3 (mod 5)
+      x ≡ 1 (mod 7)
+
+(c) How many solutions exist in {0, 1, ..., 104}? List them all.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 2: Graph Coloring and Planarity
+
+(a) What is the chromatic number of the complete bipartite graph K_{3,3}?
+    Justify your answer.
+
+(b) Is K_{3,3} planar? Prove your answer using Euler's formula or Kuratowski's theorem.
+
+(c) A graph G has 8 vertices and 13 edges. Can G be planar? Justify using the
+    inequality e ≤ 3v - 6.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 3: Conditional Probability and Bayes' Rule
+
+A test for a disease has the following properties:
+  - Sensitivity (true positive rate): 95%
+  - Specificity (true negative rate): 90%
+  - Prevalence of the disease: 1%
+
+(a) You test positive. What is the probability you actually have the disease?
+    Use Bayes' theorem and show your work.
+
+(b) You test positive on the first test and then take a second independent test,
+    which also comes back positive. Now what is the probability you have the disease?
+
+(c) Explain intuitively why the answer to (a) is so much lower than the sensitivity.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem 4: Counting with Restrictions
+
+(a) How many ways can 8 distinct books be arranged on a shelf if two specific books
+    (say A and B) must be next to each other?
+
+(b) How many surjective functions are there from a set of 5 elements to a set of 3 elements?
+    Use inclusion-exclusion.
+
+(c) In how many ways can you distribute 10 identical cookies among 4 children
+    if each child must get at least 1 cookie?
+    Use the stars and bars method.
